@@ -1,3 +1,6 @@
+const utils = require('../MisModulos/utils');
+const {suma,resta,multiplicacion,division} = require('./MisModulos/calculadora')
+
 let miAuto = {
     nombre: "Ford",
     ruedas: 4,
@@ -36,9 +39,7 @@ console.log("-----------------------------------------------------------------")
 
 console.log("------------------------ FUNCION ARROW ------------------------");
 
-let resta = (n1,n2) => {
-    return n1-n2;
-}
+resta();
 
 console.log("La resta es: " + resta(6,2));
 

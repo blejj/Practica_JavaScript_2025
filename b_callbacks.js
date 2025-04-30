@@ -1,6 +1,7 @@
-let separador = () => {
-    console.log("#####################################################################################");
-}
+const utils = require('./MisModulos/utils');
+const {separador, separadorBarra} = require('./MisModulos/utils');
+
+separadorBarra();
 
 let miAuto = {
     nombre: "Ford",
@@ -24,6 +25,8 @@ let saludarExpresion = function (n1, n2) {
 
 console.log(saludarExpresion(2, 2));
 
+separador();
+
 //FUNCIONES LAMBDA O ANÓNIMAS
 
 console.log("------------------------ FUNCION LAMBDA ------------------------");
@@ -37,6 +40,8 @@ numeros.forEach(function (num) {
 console.log("-----------------------------------------------------------------");
 
 //FUNCIONES ARROW
+
+separador();
 
 console.log("------------------------ FUNCION ARROW ------------------------");
 

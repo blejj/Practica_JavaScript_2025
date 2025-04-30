@@ -1,0 +1,25 @@
+{
+  "name": "practica_javascript_2025",
+  "version": "1.0.0",
+  "description": "este es el primer paquete que hacemos en la clase y se compone de dos modulos, calculadora y utils",
+  "main": "a_index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blejj/Practica_JavaScript_2025.git"
+  },
+  "keywords": [
+    "calculadora",
+    "separadores",
+    "utils",
+    "ifts11"
+  ],
+  "author": "Franco B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blejj/Practica_JavaScript_2025/issues"
+  },
+  "homepage": "https://github.com/blejj/Practica_JavaScript_2025#readme"
+}
