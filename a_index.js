@@ -1,10 +1,11 @@
-const utils = require('../MisModulos/utils');
-const {suma,resta,multiplicacion,division} = require('./MisModulos/calculadora')
+const { suma, resta, multiplicacion, division } = require('./MisModulos/calculadora')
+const { colorear } = require('./MisModulos/loggerColor');
+const { separador } = require('./MisModulos/utils');
 
 let miAuto = {
-    nombre: "Ford",
-    ruedas: 4,
-    puertas: 5
+    marca: "Ford",
+    color: "gris",
+    timeMachine: true
 }
 
 //FUNCIONES POR DECLARACION
@@ -48,3 +49,12 @@ console.log("-----------------------------------------------------------------")
 console.log(typeof(miAuto));
 
 console.log(miAuto.nombre);
+
+separador();
+
+console.log(colorear('yellow', 8));
+
+console.log(colorear("red", JSON.stringify(miAuto)));
+console.log(colorear('green', JSON.stringify(miAuto)));
+console.log(colorear('yellow', JSON.stringify(miAuto)));
+console.log(colorear('blue', JSON.stringify(miAuto)));
